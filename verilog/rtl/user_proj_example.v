@@ -158,6 +158,6 @@ module counter #(
             end
         end
     end
-
+//
 endmodule
 `default_nettype wire
