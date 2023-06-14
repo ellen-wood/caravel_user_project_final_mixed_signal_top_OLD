@@ -1,8 +1,8 @@
 {
     "DESIGN_NAME": "user_project_wrapper",
     "VERILOG_FILES": [
-        "dir::../../verilog/rtl/defines.v",
-        "dir::../../verilog/rtl/user_project_wrapper.v"
+        "dir::verilog/rtl/defines.v",
+        "dir::verilog/rtl/user_project_wrapper.v"
     ],
     "ROUTING_CORES": 1,
     "CLOCK_PERIOD": 10,
@@ -12,11 +12,11 @@
     "MACRO_PLACEMENT_CFG": "dir::macro.cfg",
     "MAGIC_DEF_LABELS": 0,
     "VERILOG_FILES_BLACKBOX": [
-        "dir::../../verilog/rtl/defines.v",
-        "dir::../../verilog/rtl/final_mixed_signal_top/src/final_mixed_signal_top.v""
+        "dir::verilog/rtl/defines.v",
+        "dir::verilog/rtl/final_mixed_signal_top/src/final_mixed_signal_top.v"
     ],
-    "EXTRA_LEFS": "dir::../../lef/final_mixed_signal_top.lef",
-    "EXTRA_GDS_FILES": "dir::../../gds/final_mixed_signal_top.gds",
+    "EXTRA_LEFS": "dir::lef/final_mixed_signal_top.lef",
+    "EXTRA_GDS_FILES": "dir::gds/final_mixed_signal_top.gds",
     "BASE_SDC_FILE": "dir::base_user_project_wrapper.sdc",
     "IO_SYNC": 0,
     "FP_PDN_CHECK_NODES": 0,
@@ -31,7 +31,6 @@
     "RUN_TAP_DECAP_INSERTION": 0,
     "FP_PDN_VPITCH": 180,
     "FP_PDN_HPITCH": 180,
-    "CLOCK_TREE_SYNTH": 0,
     "FP_PDN_VOFFSET": 5,
     "FP_PDN_HOFFSET": 5,
     "MAGIC_ZEROIZE_ORIGIN": 0,
